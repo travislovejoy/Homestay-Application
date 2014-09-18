@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/login_status"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:text="Not logged in" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_login"
+        android:text="Log-In" />
+
+    <Button
+        android:id="@+id/createProfile"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_CreateProfile"
+        android:text="Create Profile" />
+
+    <Button
+        android:id="@+id/searchhosts"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SearchHosts"
+        android:text="Search Hosts" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Admin"
+        android:text="Debug" />
+
+    <Button
+        android:id="@+id/EditProfile"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+         android:onClick="onClick_EditProfile"
+        android:text="Edit Profile" />
+
+</LinearLayout>

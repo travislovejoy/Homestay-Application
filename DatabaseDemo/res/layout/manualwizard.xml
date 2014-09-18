@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/manual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="20dp"
+         android:onClick="onClick_Manual"
+        android:text="Manual" />
+
+    <Button
+        android:id="@+id/wizard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="70dp"
+         android:onClick="onClick_Wizard"
+        android:text="Wizard" />
+
+</AbsoluteLayout>

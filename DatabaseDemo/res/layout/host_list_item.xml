@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8px">
+
+        <TextView
+                android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+        <TextView
+                android:id="@+id/Pet"
+                android:layout_marginLeft="6px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstName"/>
+
+        <TextView
+                android:id="@+id/Clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Pet"/>
+        
+        <TextView
+                android:id="@+id/Smoking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Clean"/>
+        
+         <TextView
+                android:id="@+id/StartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Smoking"/>
+         
+         <TextView
+                android:id="@+id/EndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StartDate"/>
+
+</RelativeLayout>

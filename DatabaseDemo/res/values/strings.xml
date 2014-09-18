@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home Stay App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="Pet_prompt">Pets?</string>
+<string name= "Clean_prompt">Cleanliness?</string>
+<string name= "Type_prompt">Type?</string>
+<string name= "Smoking_prompt">Smoking?</string>
+<string name= "BeginMonth_prompt">Begin Month?</string>
+<string name= "BeginDay_prompt">Begin Day?</string>
+<string name= "BeginYear_prompt">Begin Year?</string>
+<string name= "EndMonth_prompt">End Month?</string>
+<string name= "EndDay_prompt">End Day?</string>
+<string name= "EndYear_prompt">End Year?</string>
+<string name= "Preference_prompt">Preference?</string>
+
+<string-array name="Pet_arrays">
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Both</item>
+        <item>Dont Care</item>
+            </string-array>
+           
+<string-array name="Clean_arrays">
+        <item>Clean</item>
+        <item>Average</item>
+        <item>Messy</item>
+        <item>Dont Care</item>
+            </string-array>
+
+<string-array name="Type_arrays">
+        <item>Host</item>
+        <item>Student</item>
+        </string-array>
+        
+<string-array name="Smoking_arrays">
+        <item>Smoking</item>
+        <item>No Smoking</item>
+        </string-array>
+            
+<string-array name="Month_arrays">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        </string-array>
+        
+<string-array name="Day_arrays">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        </string-array>
+  <string-array name="Year_arrays">
+        <item>2014</item>
+        <item>2015</item>
+        </string-array>
+        
+  <string-array name="MMonth_arrays">
+      	<item>-</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        </string-array>
+        
+<string-array name="MDay_arrays">
+    	<item>-</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        </string-array>
+  <string-array name="MYear_arrays">
+      	<item>-</item>
+        <item>2014</item>
+        <item>2015</item>
+        </string-array>
+        
+  <string-array name="Preference_arrays">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        </string-array>
+</resources>

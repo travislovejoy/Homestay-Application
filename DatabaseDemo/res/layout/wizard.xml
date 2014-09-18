@@ -1,0 +1,173 @@
+
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+ <ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="2000px">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Pet_arrays"
+        android:prompt="@string/Pet_prompt" />
+    
+    <Spinner
+        android:id="@+id/petPreference"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+       
+        android:entries="@array/Preference_arrays"
+        android:prompt="@string/Preference_prompt" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Clean_arrays"
+        android:prompt="@string/Clean_prompt" />
+
+    <Spinner
+        android:id="@+id/CleanPreference"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Preference_arrays"
+        android:prompt="@string/Preference_prompt" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Smoking_arrays"
+        android:prompt="@string/Smoking_prompt" />
+    
+    <Spinner
+        android:id="@+id/smokingPreference"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        
+        android:entries="@array/Preference_arrays"
+        android:prompt="@string/Preference_prompt" />
+    
+     <EditText
+         android:id="@+id/distance"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:layout_below="@+id/smokingPreference"
+         android:layout_marginTop="22dp"
+         android:ems="10"
+         android:hint="distance from campus(miles)"
+         android:inputType="number" />
+     
+      <Spinner
+        android:id="@+id/distancePreference"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        
+        android:entries="@array/Preference_arrays"
+        android:prompt="@string/Preference_prompt" />
+    
+    <TextView
+        android:id="@+id/BeginDate"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner3"
+        android:text="Begin Date: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+      <Spinner
+         android:id="@+id/BeginMonth"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/BeginDate"
+         android:entries="@array/MMonth_arrays"
+         android:prompt="@string/BeginMonth_prompt" />
+      
+      <Spinner
+         android:id="@+id/BeginDay"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/beginMonth"
+         android:entries="@array/MDay_arrays"
+         android:prompt="@string/BeginDay_prompt" />
+      
+      <Spinner
+         android:id="@+id/BeginYear"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/BeginDay"
+         android:entries="@array/MYear_arrays"
+         android:prompt="@string/BeginYear_prompt" />
+      
+     
+      
+      <TextView
+        android:id="@+id/EndDate"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BeginYear"
+        android:text="End Date: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+      <Spinner
+         android:id="@+id/EndMonth"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/EndDate"
+         android:entries="@array/MMonth_arrays"
+         android:prompt="@string/EndMonth_prompt" />
+      
+      <Spinner
+         android:id="@+id/EndDay"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/EndMonth"
+         android:entries="@array/MDay_arrays"
+         android:prompt="@string/EndDay_prompt" />
+      
+      <Spinner
+         android:id="@+id/EndYear"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/EndDay"
+         android:entries="@array/MYear_arrays"
+         android:prompt="@string/EndYear_prompt" />
+      
+     
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Submit"
+        android:text="Submit" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        android:onClick="onListItemClick"
+    </ListView>
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
